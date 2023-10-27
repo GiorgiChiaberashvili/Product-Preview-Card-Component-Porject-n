@@ -1,0 +1,59 @@
+@media only screen and (max-width: 732px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 25px;
+        align-items: center;
+    }
+
+    .cont-left {
+        overflow: hidden;
+        border-radius: 10px 10px 0px 0px;
+        max-width: 80%;
+        width: 100%;
+        content: url(/images/image-product-mobile.jpg);
+    }
+
+    .cont-right {
+        padding-left: unset;
+        overflow: hidden;
+        border-radius: 0px 0px 10px 10px;
+        max-width: 80%;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 0 12px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        padding: 20px 12px;
+        margin-top: -2rem;
+        font-weight: bolder;
+    }
+
+    p {
+        margin-top: -2rem;
+        max-width: 20rem;
+        padding: 0 12px;
+    }
+
+    button {
+        padding: 1rem 5rem;
+        margin-bottom: 1rem;
+        /* margin-left: 1rem; */
+    }
+
+    .price {
+        /* margin-left: 1rem; */
+    }
+
+    .attribution {
+        font-size: 8px;
+    }
+
+}

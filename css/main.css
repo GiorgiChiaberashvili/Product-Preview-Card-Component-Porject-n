@@ -1,0 +1,142 @@
+:root {
+    /* ### Primary */
+
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* ### Neutral */
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    --Fraunces: 'Fraunces', serif;
+    --Montserrat: 'Montserrat', sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--Cream);
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+    border-radius: 25px;
+    /* flex-direction: column; */
+    max-width: 45rem;
+}
+
+.cont-left {
+    max-width: 50%;
+    width: 100%;
+    max-height: 80%;
+    background-color: black;
+    content: url(/images/image-product-desktop.jpg);
+}
+
+.cont-right {
+    max-width: 50%;
+    width: 100%;
+    background-color: var(--White);
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.logo {
+    color: var(--Dark-grayish-blue);
+    font-size: 14px;
+    font-family: var(--Montserrat);
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: var(--Fraunces);
+    padding: 0 2rem;
+}
+
+p {
+    font-size: 14px;
+    font-family: var(--Montserrat);
+    color: var(--Dark-grayish-blue);
+    line-height: 28px;
+    padding: 0 2rem;
+    font-weight: 500;
+    max-width: 14rem;
+}
+
+.price {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -2rem;
+}
+
+h4 {
+    color: var(--Dark-cyan);
+    font-size: 2rem;
+    font-family: var(--Fraunces);
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+
+h5 {
+    margin-right: 1rem;
+    right: 4rem;
+    position: relative;
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: var(--Dark-cyan);
+    display: flex;
+    align-items: center;
+    padding: 1rem 6rem;
+    margin-top: -1rem;
+    border-radius: 10px;
+    color: var(--Cream);
+    font-size: 14px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(3, 59, 3);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(189, 186, 186);
+    font-family: 'Fraunces';
+}
+
+.attribution a {
+    color: rgb(48, 98, 45);
+    text-decoration: none;
+}
+
+img {
+    margin-right: 10px;
+}
